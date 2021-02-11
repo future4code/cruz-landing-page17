@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: #51260eff;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+footer a {
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  margin: 8px;
+}
+
+footer img {
+  height: 24px;
+}
