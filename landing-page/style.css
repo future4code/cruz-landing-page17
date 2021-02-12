@@ -6,9 +6,9 @@
     display: flex;
     justify-content: space-between;
     height: 10vh;
-    width: 100%;
+    width: 100vw;
+   
     /* alinhar largura e altura com a grid principal */
-
 }
 
 
@@ -27,6 +27,7 @@
     border: none;
     height: 10vh;
     padding: 10px 30px;
+    font-size: 1.5em;
     /* alinhar largura e altura com a grid principal */
 }
 
@@ -71,6 +72,22 @@
     height: 2rem;
 }
 
+.logo-menu {
+    width: 4.5em;
+    margin: 0.3em;
+}
+
+.menu-desktop {
+    display: flex;
+    list-style-type: none;
+    padding: 2em;
+}
+
+.menu-desktop >li {
+    margin: 0 2.1em;
+    color: white;
+}
+
 
 /* CONFIGURAÇÕES GERAIS */
 
@@ -79,25 +96,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1.2rem;
+   
 }
 
-html {
+body {
     height: 200vh;
+    width: 100vw;
+   
 
 }
 
 .page1 {
-    display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 100%;
-    width: 100%;
+    width: 100vw;
   
 }
 
 .home {
     height: 95vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,12 +142,13 @@ html {
 
 .busca {
     width: 95%;
-    height: 2.2em;
+    height: 3.5em;
     margin: 20px;
     background-color: white;
     opacity: 0.8;
     border-radius: 20px;
     border-color:  #f1ba23;
+    font-size: 1.1em;
     padding: 4px;
 }
 
@@ -158,7 +178,7 @@ html {
 }
 
 .pad {
-    padding: 5rem;
+    padding: 1em;
 }
 
 /* ------------------------------------- DIV DOIS */
@@ -178,19 +198,23 @@ html {
     justify-content: center;
     align-items: center;
     /* border: 2px solid red; */
+}
 
+.card {
+    margin: 0 0 3em 0;
 }
 
 .c-cards {
     display:flex;
     justify-content: space-evenly;
     /* background-color: tomato; */
-    width: 100vw;
+    width: 99vw;
+    
     
 }
 
 .img1, .img2, .img3 {
-    margin: 3rem;
+    margin: 2em;
     box-shadow: 0.5rem 0.5rem 1.2rem rgb(161, 160, 160);
 }
 
@@ -203,7 +227,6 @@ html {
 .img2 {
     background-image: url("img/decorar-deliciosos-doces-caseiros-com-chocolate-e-amendoim_155003-4397.jpg");
     background-size: 25rem;
-     padding: 50px;
      background-position: left; 
 }
 
@@ -218,7 +241,7 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    padding: 50px;
+   
     text-align: justify;
     padding: 0 3rem 0 3rem;
     /* border: 2px solid yellow; */
