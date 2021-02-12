@@ -2,21 +2,31 @@
 /* MENU DO HEADER */
 
 .cabeca{
-    background-color:#96A4AE;
-    /* alinhar largura e altura com a grid principal */
+    background-color:#161c2c;
     display: flex;
     justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    /* alinhar largura e altura com a grid principal */
 
 }
 
+
+.carro{
+    height: 8vh;
+    padding-right: 32px;
+    padding-top: 8px;
+}
+
 .dropbtn-inside{
-    background-color:#96A4AE;
+    background-color:#161c2c;
     color: whitesmoke;
     font-family: 'Barlow Condensed', sans-serif;
     src: url(BARLOWCONDENSED-LIGHT.ttf);
     font-weight:lighter;
     border: none;
-    padding: 10px 10px;
+    height: 10vh;
+    padding: 10px 30px;
     /* alinhar largura e altura com a grid principal */
 }
 
@@ -32,7 +42,6 @@
     font-family: 'Barlow Condensed', sans-serif;
     src: url(BARLOWCONDENSED-LIGHT.ttf);
     font-weight:lighter;
-    font-size: 16px;
 }
 
 .dropdown-inside{
@@ -48,7 +57,7 @@
 }
 
 .dropdown-content-inside a:hover{
-    background-color:#96A4AE;
+    background-color:#161c2c;
     color: whitesmoke;
 }
 
@@ -57,10 +66,10 @@
     display: block;
 }
 
+
 .img-carrinho {
     height: 2rem;
 }
-
 
 
 /* CONFIGURAÇÕES GERAIS */
@@ -89,7 +98,6 @@ html {
 
 .home {
     height: 95vh;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
