@@ -7,7 +7,7 @@
     justify-content: space-between;
     height: 10vh;
     width: 100vw;
-   
+
     /* alinhar largura e altura com a grid principal */
 }
 
@@ -91,27 +91,28 @@
 
 /* CONFIGURAÇÕES GERAIS */
 
-* {
-    font-family: 'Raleway', sans-serif;
+* {    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
 }
 
 body {
     height: 200vh;
     width: 100vw;
-   
+
 
 }
 
 .page1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 100%;
-    width: 100vw;
-  
+    background-image: url("img/brooke-lark-wMzx2nBdeng-unsplash.jpg");
+    background-size: 100vw;
 }
 
 .home {
@@ -119,11 +120,7 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    background-image: url("img/brooke-lark-wMzx2nBdeng-unsplash.jpg");
-    background-size: 100vw;
-    
+    align-items: center;    
 }
 
 .titulo {
@@ -208,9 +205,8 @@ body {
     display:flex;
     justify-content: space-evenly;
     /* background-color: tomato; */
+    font-family: 'Raleway', sans-serif;
     width: 99vw;
-    
-    
 }
 
 .img1, .img2, .img3 {
