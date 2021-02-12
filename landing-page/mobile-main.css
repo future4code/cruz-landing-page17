@@ -1,0 +1,56 @@
+
+@media screen and (min-width:414px) and (max-width:736px) {
+    .page1 {
+        border: 5px solid blueviolet;
+        height: 95vh;
+       
+    }
+
+    .home {
+       background-size: cover;
+       height: 95vh;
+    }
+
+    .titulo {
+        font-size: 2em;
+    }
+
+    .yellow  {
+        font-size: 1em;
+    }
+
+    .btn {
+        width: 30%;
+        background-color: #f1ba23;
+    }
+
+    .page2 {
+    
+        display: flex;
+    
+      
+        /* border: 2px solid red; */
+    
+    }
+
+
+    .card {
+        display: flex;
+        text-align: justify;
+        padding: 50px;
+        text-align: justify;
+      
+        border: 2px solid yellow;
+    }
+
+    
+    .produtos {
+        display: flex;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    display:flex;
+    /* background-color: tomato; */
+}
+        
+}
