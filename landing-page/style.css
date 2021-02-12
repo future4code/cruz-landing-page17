@@ -1,3 +1,68 @@
+
+/* MENU DO HEADER */
+
+.cabeca{
+    background-color:#96A4AE;
+    /* alinhar largura e altura com a grid principal */
+
+}
+
+.dropbtn-inside{
+    background-color:#96A4AE;
+    color: whitesmoke;
+    font-family: 'Barlow Condensed', sans-serif;
+    src: url(BARLOWCONDENSED-LIGHT.ttf);
+    font-weight:lighter;
+    border: none;
+    padding: 10px 10px;
+    /* alinhar largura e altura com a grid principal */
+}
+
+.dropdown-inside:hover 
+.dropbtn-inside{
+    background-color: #eacf86;
+}
+
+.dropdown-content-inside{
+    display: none;
+    position: absolute;
+    background-color: #eacf86;
+    font-family: 'Barlow Condensed', sans-serif;
+    src: url(BARLOWCONDENSED-LIGHT.ttf);
+    font-weight:lighter;
+    font-size: 16px;
+}
+
+.dropdown-inside{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content-inside a{
+    color: whitesmoke;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.dropdown-content-inside a:hover{
+    background-color:#96A4AE;
+    color: whitesmoke;
+}
+
+.dropdown-inside:hover 
+.dropdown-content-inside{
+    display: block;
+}
+
+.carro{
+   box-align: center;
+}
+
+
+
+/* CONFIGURAÇÕES GERAIS */
+
 * {
     font-family: 'Raleway', sans-serif;
     margin: 0;
