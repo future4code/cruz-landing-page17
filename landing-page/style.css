@@ -1,3 +1,4 @@
+
 /* MENU DO HEADER */
 
 .cabeca{
@@ -58,7 +59,159 @@
    box-align: center;
 }
 
-/* .carro:hover 
-.dropbtn-inside{
-    background-color: #eacf86;
-} */
+
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+html {
+    height: 200vh;
+}
+
+.page1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+  
+}
+
+.home {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("img/brooke-lark-wMzx2nBdeng-unsplash.jpg");
+    background-size: 100vw;
+    
+}
+
+.titulo {
+    font-size: 3.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #161c2c;
+}
+
+.yellow {
+    font-size: 3.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #f1ba23;
+}
+
+.busca {
+    width: 45rem;
+    height: 3rem;
+    margin: 20px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 20px;
+    border-color:  #f1ba23;
+    padding: 4px;
+}
+
+.busca:focus {
+    outline: none;
+}
+
+.btn {
+    width: 8rem;
+    height: 3rem;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;  
+}
+
+.btn:hover{
+    background-color: #f1ba23;
+}
+
+.block {
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+.pad {
+    padding: 5rem;
+}
+
+/* ------------------------------------- DIV DOIS */
+
+.produtos {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    display:flex;
+    /* background-color: tomato; */
+}
+
+.page2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+
+}
+
+.c-cards {
+    display:flex;
+    justify-content: space-evenly;
+    /* background-color: tomato; */
+    width: 100vw;
+    
+}
+
+.img1, .img2, .img3 {
+    margin: 3rem;
+    box-shadow: 0.5rem 0.5rem 1.2rem rgb(161, 160, 160);
+}
+
+.img1 {
+    background-image: url("img/vegetais.jpg");
+    background-size: 15rem;
+    
+}
+
+.img2 {
+    background-image: url("img/decorar-deliciosos-doces-caseiros-com-chocolate-e-amendoim_155003-4397.jpg");
+    background-size: 25rem;
+     padding: 50px;
+     background-position: left; 
+}
+
+.img3 {
+    background-image: url("img/queijo-e-azeitonas_144627-35211.jpg");
+    background-size: 15rem;
+    background-position:bottom;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 50px;
+    text-align: justify;
+    padding: 0 3rem 0 3rem;
+    /* border: 2px solid yellow; */
+}
+
+.card > p {
+    margin: 20px;
+}
