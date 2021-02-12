@@ -2,19 +2,29 @@
 /* MENU DO HEADER */
 
 .cabeca{
-    background-color:#96A4AE;
+    background-color:#161c2c;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
     /* alinhar largura e altura com a grid principal */
+}
 
+.carro{
+    height: 8vh;
+    padding-right: 32px;
+    padding-top: 8px;
 }
 
 .dropbtn-inside{
-    background-color:#96A4AE;
+    background-color:#161c2c;
     color: whitesmoke;
     font-family: 'Barlow Condensed', sans-serif;
     src: url(BARLOWCONDENSED-LIGHT.ttf);
     font-weight:lighter;
     border: none;
-    padding: 10px 10px;
+    height: 10vh;
+    padding: 10px 30px;
     /* alinhar largura e altura com a grid principal */
 }
 
@@ -30,7 +40,6 @@
     font-family: 'Barlow Condensed', sans-serif;
     src: url(BARLOWCONDENSED-LIGHT.ttf);
     font-weight:lighter;
-    font-size: 16px;
 }
 
 .dropdown-inside{
@@ -46,7 +55,7 @@
 }
 
 .dropdown-content-inside a:hover{
-    background-color:#96A4AE;
+    background-color:#161c2c;
     color: whitesmoke;
 }
 
@@ -54,12 +63,6 @@
 .dropdown-content-inside{
     display: block;
 }
-
-.carro{
-   box-align: center;
-}
-
-
 
 /* CONFIGURAÇÕES GERAIS */
 
@@ -79,12 +82,17 @@ html {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 100vh;
-  
+    height: 90vh;
+/*  height: 100vh; <--- aqui eu mudei de 100 pra 
+90 pra que o header ficasse dentro dos 100 tambem
+header=10vh home=90vh total=100vh*/ 
 }
 
 .home {
-    height: 80vh;
+    height: 90vh;
+/*  height: 100vh; <--- aqui eu mudei de 100 pra 
+90 pra que o header ficasse dentro dos 100 tambem
+header=10vh home=90vh total=100vh*/ 
     width: 100%;
     display: flex;
     justify-content: center;
