@@ -7,7 +7,7 @@
     justify-content: space-between;
     height: 10vh;
     width: 100vw;
-   
+
     /* alinhar largura e altura com a grid principal */
 }
 
@@ -91,15 +91,13 @@
 
 /* CONFIGURAÇÕES GERAIS */
 
-* {
-    font-family: 'Raleway', sans-serif;
+* {    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 1.1em;
    
 }
-
 
 /* ------------------------------------- DIV DOIS */
 
@@ -120,7 +118,6 @@
 .img1 {
     background-image: url("img/vegetais.jpg");
     background-size: 100%;
-    
 }
 
 .img2 {
@@ -200,7 +197,6 @@
     background-image: url("img/brooke-lark-wMzx2nBdeng-unsplash.jpg");
     background-size: cover;
     background-attachment: fixed;
-
     height: 100%;
 }
 
