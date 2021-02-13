@@ -1,56 +1,99 @@
 
-@media screen and (min-width:414px) and (max-width:736px) {
-    .page1 {
-        border: 5px solid blueviolet;
-        height: 95vh;
-       
+@media screen and (min-width:375px) and (max-width:736px) {
+    .main {
+        height: 150vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 4% 1fr 1fr 1fr;
+        grid-template-areas: 
+                "welcome"
+                "titulo2"
+                 "card1"
+                 "card2"
+                 "card3";
+        grid-auto-flow: column;
+    } 
+
+    .titulo2 {
+        
+        align-self: flex-end;
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .titulo1 {
+        font-size: 40%;
     }
 
-    .home {
-       background-size: cover;
-       height: 95vh;
-    }
+    .welcome {
+        text-align: center;
+        padding: 3%;
 
-    .titulo {
-        font-size: 2em;
-    }
-
-    .yellow  {
-        font-size: 1em;
-    }
-
-    .btn {
-        width: 30%;
-        background-color: #f1ba23;
-    }
-
-    .page2 {
+    
     
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        background-image: url("img/brooke-lark-wMzx2nBdeng-unsplash.jpg");
+        background-size: cover;
+        background-attachment: fixed;
     
       
-        /* border: 2px solid red; */
-    
     }
 
-
+    
     .card {
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
         text-align: justify;
-        padding: 50px;
-        text-align: justify;
-      
-        border: 2px solid yellow;
+        padding:3em;
+        
     }
 
-    
     .produtos {
-        display: flex;
-    height: 15rem;
-    width: 15rem;
-    border-radius: 50%;
-    display:flex;
-    /* background-color: tomato; */
-}
+        height: 10em;
+        width: 10em;
+        border-radius: 50%;
+        display:flex;
+
+    }
+
+        input {
+            width: 60%;
+            height: 5%;
+            font-size: 0.3em;
         
+            border-radius: 30px;
+            border: none;
+            display: flex;
+            align-self: center;
+            margin: 4%;
+        
+            outline: none;
+            padding: 0.8em;
+    }
+
+        
+    
+    .btn {
+      
+        width: 20%;
+        height: 130%;
+        border-radius: 20px;
+        border: none;
+        background-color: #e8f538;
+        font-size: 0.2em;
+    }
+
+    .center {
+        display: flex;
+        /* align-self: center;
+        justify-items: center; */
+        justify-content: center;
+    }
 }
