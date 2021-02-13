@@ -96,90 +96,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-}
-
-body {
-    height: 200vh;
-    width: 100vw;
-   
-
-}
-
-.page1 {
-    justify-content: center;
-    align-items: flex-end;
-    height: 100%;
-    width: 100vw;
-  
-}
-
-.home {
-    height: 95vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-image: url("img/brooke-lark-wMzx2nBdeng-unsplash.jpg");
-    background-size: 100vw;
-    
-}
-
-.titulo {
-    font-size: 3.2rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    color: #161c2c;
-}
-
-.yellow {
-    font-size: 3.2rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    color: #f1ba23;
-}
-
-.busca {
-    width: 95%;
-    height: 3.5em;
-    margin: 20px;
-    background-color: white;
-    opacity: 0.8;
-    border-radius: 20px;
-    border-color:  #f1ba23;
     font-size: 1.1em;
-    padding: 4px;
+   
 }
 
-.busca:focus {
-    outline: none;
-}
-
-.btn {
-    width: 15%;
-    height: 3rem;
-    margin: 20px;
-    border-radius: 20px;
-    background-color: transparent;
-    cursor: pointer;  
-}
-
-.btn:hover{
-    background-color: #f1ba23;
-}
-
-.block {
-    display: block;
-}
-
-.center {
-    text-align: center;
-}
-
-.pad {
-    padding: 1em;
-}
 
 /* ------------------------------------- DIV DOIS */
 
@@ -191,27 +111,6 @@ body {
     /* background-color: tomato; */
 }
 
-.page2 {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid red; */
-}
-
-.card {
-    margin: 0 0 3em 0;
-}
-
-.c-cards {
-    display:flex;
-    justify-content: space-evenly;
-    /* background-color: tomato; */
-    width: 99vw;
-    
-    
-}
 
 .img1, .img2, .img3 {
     margin: 2em;
@@ -220,19 +119,19 @@ body {
 
 .img1 {
     background-image: url("img/vegetais.jpg");
-    background-size: 15rem;
+    background-size: 100%;
     
 }
 
 .img2 {
     background-image: url("img/decorar-deliciosos-doces-caseiros-com-chocolate-e-amendoim_155003-4397.jpg");
-    background-size: 25rem;
+    background-size: 150%;
      background-position: left; 
 }
 
 .img3 {
     background-image: url("img/queijo-e-azeitonas_144627-35211.jpg");
-    background-size: 15rem;
+    background-size: 100%;
     background-position:bottom;
 }
 
@@ -240,13 +139,98 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
+    justify-content: center;
    
     text-align: justify;
-    padding: 0 3rem 0 3rem;
-    /* border: 2px solid yellow; */
+    padding: 0 3em 0 3em;
+    margin: 20px;
 }
 
-.card > p {
-    margin: 20px;
+
+/* refatorção -------------------------------------------------- */
+
+.main {
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 12% 1fr;
+    grid-template-areas: 
+            "welcome welcome welcome"
+            "titulo2 titulo2 titulo2"
+             "card1 card2 card3";
+}
+
+.welcome {
+    grid-area: welcome;
+}
+
+.titulo2 {
+    grid-area: titulo2;
+    align-self: flex-end;
+    font-size: 3.5em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.titulo1 {
+    font-weight: 550;
+}
+
+.card1 {
+    grid-area: card1;
+}
+
+.card2 {
+    grid-area: card2;
+}
+
+.card3 {
+    grid-area: card3;
+}
+
+
+.welcome {
+    font-size: 4.3em;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url("img/brooke-lark-wMzx2nBdeng-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 100%;
+}
+
+input {
+    width: 60%;
+    height: 10%;
+    font-size: 0.4em;
+
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-self: center;
+
+    outline: none;
+    padding: 1em;
+}
+
+.btn {
+    width: 10%;
+    height: 60%;
+    border-radius: 20px;
+    border: none;
+    background-color: #e8f538;
+    font-size: 0.3em;
+}
+
+.btn:hover {
+    outline: none;
+    background-color:#b60d0d;
+    color: white;
+    cursor: pointer;
+    
 }
