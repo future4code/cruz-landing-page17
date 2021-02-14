@@ -95,7 +95,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1.1em;
+    font-family: 'Raleway';
    
 }
 
@@ -139,14 +139,18 @@
     justify-content: center;
    
     text-align: justify;
-    padding: 0 3em 0 3em;
-    margin: 20px;
+    padding: 2em
+    margin: 2em;
 }
 
 
 /* refatorção -------------------------------------------------- */
-
+body {
+    display: flex;
+    flex-direction: column;
+}
 .main {
+    
     height: 150vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -155,6 +159,10 @@
             "welcome welcome welcome"
             "titulo2 titulo2 titulo2"
              "card1 card2 card3";
+}
+
+main >p {
+    font-size: 1.3em;
 }
 
 .welcome {
