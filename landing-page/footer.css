@@ -120,6 +120,8 @@ footer button {
 
 @media screen and (max-device-width: 600px) {
   footer {
+    position: absolute;
+    margin-top: 290vh;
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(2, 1fr);
   }

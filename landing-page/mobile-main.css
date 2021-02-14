@@ -1,5 +1,15 @@
 
 @media screen and (min-width:375px) and (max-width:736px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-menu {
+        width: 3.3em;
+    }
+
     .main {
         height: 150vh;
         display: grid;
@@ -95,5 +105,20 @@
         /* align-self: center;
         justify-items: center; */
         justify-content: center;
+    }
+
+    ---------------------------FOOTER
+
+    
+}
+
+@media screen and (min-width:1280px){
+    .card {
+        padding: 8em;
+        font-size: 1.3em;
+    }
+
+    .logo-menu {
+        width: 6.5em;
     }
 }
