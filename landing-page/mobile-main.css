@@ -1,0 +1,124 @@
+
+@media screen and (min-width:375px) and (max-width:736px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-menu {
+        width: 3.3em;
+    }
+
+    .main {
+        height: 150vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 4% 1fr 1fr 1fr;
+        grid-template-areas: 
+                "welcome"
+                "titulo2"
+                 "card1"
+                 "card2"
+                 "card3";
+        grid-auto-flow: column;
+    } 
+
+    .titulo2 {
+        
+        align-self: flex-end;
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .titulo1 {
+        font-size: 40%;
+    }
+
+    .welcome {
+        text-align: center;
+        padding: 3%;
+
+    
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        background-image: url("img/brooke-lark-wMzx2nBdeng-unsplash.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    
+      
+    }
+
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        text-align: justify;
+        padding:3em;
+        
+    }
+
+    .produtos {
+        height: 10em;
+        width: 10em;
+        border-radius: 50%;
+        display:flex;
+
+    }
+
+        input {
+            width: 60%;
+            height: 5%;
+            font-size: 0.3em;
+        
+            border-radius: 30px;
+            border: none;
+            display: flex;
+            align-self: center;
+            margin: 4%;
+        
+            outline: none;
+            padding: 0.8em;
+    }
+
+        
+    
+    .btn {
+      
+        width: 20%;
+        height: 130%;
+        border-radius: 20px;
+        border: none;
+        background-color: #e8f538;
+        font-size: 0.2em;
+    }
+
+    .center {
+        display: flex;
+        /* align-self: center;
+        justify-items: center; */
+        justify-content: center;
+    }
+
+    ---------------------------FOOTER
+
+    
+}
+
+@media screen and (min-width:1280px){
+    .card {
+        padding: 8em;
+        font-size: 1.3em;
+    }
+
+    .logo-menu {
+        width: 6.5em;
+    }
+}
